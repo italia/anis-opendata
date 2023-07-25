@@ -4,18 +4,30 @@ sequenceDiagram
         alt without PDND
             ANS-->>ANIS: invia i tracciati
             ANIS->>ANIS: carica iscrizioni e titoli
+            ANPR-->>ANIS: Invia IDANPR degli studenti in ANIS
+            ANIS->>ANIS: aggiorna iscrizioni e titoli con IDANPR
         else with PDND
             loop per ogni IFS + ANS su PDND
                 ANIS->>+IFS: elenco iscrizioni variate(t0,t1)
                 IFS-->>-ANIS: elenco studenti
                 loop per ogni studente
+                    ANIS->>+ANPR: C019
+                    ANPR-->>-ANIS: Studente, IDANPR
+                    alt NO studente in ANPR
+                    ANIS->>ANIS: ottiene studente da SPID (nome, cognome, data di nascita)
+                    end
                     ANIS->>+IFS: dettaglio iscrizione
                     IFS-->>-ANIS: iscrizione
                     ANIS->>ANIS: aggiorna iscrizione
                 end
                 ANIS->>+IFS: elenco titoli variati(t0,t1)
-                IFS-->>-ANIS: elenco studenti
-                loop per ogni studente
+                IFS-->>-ANIS: elenco studenti   
+                    loop per ogni studente
+                    ANIS->>+ANPR: C019
+                    ANPR-->>-ANIS: Studente, IDANPR
+                    alt NO studente in ANPR
+                    ANIS->>ANIS: ottiene studente da SPID (nome, cognome, data di nascita)
+                    end
                     ANIS->>+IFS: dettaglio titolo
                     IFS-->>-ANIS: titolo
                     ANIS->>ANIS: aggiorna titolo
