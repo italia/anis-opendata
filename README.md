@@ -18,7 +18,7 @@
 
 # Descrizione
 
-Questa repository contiene i dati pubblici estratti dalla pagina Numeri del portale ANIS.
+Questo repository contiene i dati pubblici estratti dalla pagina Numeri del portale ANIS.
 
 
 
