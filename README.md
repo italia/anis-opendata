@@ -14,9 +14,6 @@
     <a href="https://github.com/teamdigitale/anis-opendata/commits/main">
       <img src="https://img.shields.io/github/last-commit/teamdigitale/anis-opendata" />
     </a>
-    <a href="https://repository.frictionlessdata.io/pages/dashboard.html?user=teamdigitale&repo=anis-opendata&flow=frictionless">
-        <img src="https://github.com/teamdigitale/anis-opendata/actions/workflows/frictionless.yaml/badge.svg" />
-    </a>
 </div>
 
 # Descrizione
@@ -50,7 +47,7 @@ Tutti i dati contenuti nel repository sono aggiornati ogni giorno alle **xxx** (
 
 # Changelog
 
-Le modifiche alla repository saranno tracciate in dettaglio nel file di changelog al fine di essere trasparenti riguardo l'evoluzione del contenuto e della struttura della repository. Per completezza, nel file è specificata anche la lista delle integrazioni future pianificate. 
+Le modifiche al repository sono tracciate in dettaglio nel file di changelog al fine di essere trasparenti riguardo l'evoluzione del contenuto e della struttura della repository. Per completezza, nel file è specificata anche la lista delle integrazioni future pianificate. 
 
 ## Ultimo aggiornamento 
 
