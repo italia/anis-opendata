@@ -69,5 +69,5 @@ Far riferimento al file [LICENSE](LICENSE) per il dettaglio della licenza.
 
 ### Come attribuire
 
-
+[To define]
 
