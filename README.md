@@ -1,7 +1,7 @@
 <h1 align="center">ANIS - Open Data</h1>
 
 <div align="center">
-<img width="256" height="256" src="img/anis-logo.svg">
+<img width="128" height="128" src="img/anis-logo.svg">
 </div>
 
 <br />
