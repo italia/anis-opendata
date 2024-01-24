@@ -6,15 +6,24 @@
 
 <br />
 <div align="center">
-    <!-- CoC -->
-    <a href="CODE_OF_CONDUCT.md">
-      <img src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg" />
-    </a>
-    <!-- last commit -->
-    <a href="https://github.com/teamdigitale/anis-opendata/commits/main">
-      <img src="https://img.shields.io/github/last-commit/teamdigitale/anis-opendata" />
-    </a>
-</div>
+    <img title="Star on GitHub" src="https://img.shields.io/github/stars/italia/anis-opendata?style=social&label=Star">
+    <img title="Fork on GitHub" src="https://img.shields.io/github/forks/italia/anis-opendata?style=social&label=Fork"> 
+</div>  
+
+<div align="center">
+    <a href="https://github.com/italia/anis-opendata/graphs/contributors"><img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/italia/anis-opendata" /></a>
+    <a href="https://github.com/italia/anis-opendata/issues"><img alt="Issues" src="https://img.shields.io/github/issues/italia/anis-opendata?color=0088ff" /></a>
+    <a href="https://github.com/italia/anis-opendata/issues?q=is%3Aissue+is%3Aclosed"><img alt="Issues" src="https://img.shields.io/github/issues-closed/italia/anis-opendata?color=0088ff" /></a>
+    <a href="https://github.com/italia/anis-opendata/pulse/monthly" alt="Activity"><img src="https://img.shields.io/github/commit-activity/m/italia/anis-opendata" /></a>        
+  </div>
+
+## Linee Guida e-service
+<p align="center">
+    <b>Work in progress</b>
+</p>
+<p align="center">
+ <img src="img/umarell.png" width="80"/>
+</p>
 
 # Descrizione
 
